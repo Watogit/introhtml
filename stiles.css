@@ -27,6 +27,15 @@ button {
 
 }
 
+.titulos {
+    font-family: 'Roboto', sans-serif;
+}
+
+.titulos2 {
+    font-family: 'Exo', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
 /*--- table---*/
 
 table {
@@ -39,4 +48,81 @@ td {
 }
 .dias {
     font-weight: bold;
+}
+
+/*---contenedores---*/
+
+#contenedor1 {
+    background-color: green;
+    border:  1px solid black;
+    padding: 10px;
+}
+
+#contenedor2 {
+    background-color: blue;
+    border: 1px solid black;
+    width: 100px;
+    padding: 1opx;
+    height: 100px;
+    color: white;
+}
+
+#contenedor3 {
+    background-color: yellow;
+    border: 1px solid black;
+    padding: 1opx;
+    height: 100px;
+}
+
+#Rick {
+    height: 400px;
+}
+#Morty {
+    width: 400px;
+}
+
+#contenedor2 :hover {
+    background-color: rgb(233, 14, 185);
+}
+
+#contenedor3 :hover {
+    background-color: rgb(14, 164, 233);
+}
+
+/*---formulario tipo texto---*/
+
+.Control1{
+    background-color: rgb(240, 39, 173);
+}
+
+.Control1:focus{
+    background-color: orange;
+}
+
+.imagen {
+    background-image: url("unidad.jpg");
+    width: 600px;
+    height: 400px;
+    background-position: center top;
+}
+
+.container {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    background-color: blue;
+    border: 5px dotted orangered;
+    margin: 20px;
+    padding: 20px;
+}
+
+.gradient {
+    width: 500px;
+    height: 500px;
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(204,153,222,0.7511379551820728) 7%, rgba(151,168,231,1) 64%, rgba(0,212,255,1) 100%);
+}
+
+#Wato {
+    text-align: center;
 }
